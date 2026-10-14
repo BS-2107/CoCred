@@ -1,0 +1,15 @@
+{
+  "name": "cocred-platform",
+  "version": "2.0.0",
+  "description": "CoCred — Student Academic & Co-Curricular Credential Management Platform",
+  "scripts": {
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build:client": "npm run build --prefix client",
+    "build:server": "npm run build --prefix server",
+    "install:all": "npm install && npm install --prefix client && npm install --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

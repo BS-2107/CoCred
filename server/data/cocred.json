@@ -1,0 +1,476 @@
+{
+  "users": [
+    {
+      "id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "email": "student@cocred.edu",
+      "password_hash": "$2b$10$jRFH52wxlIqcg67meMVUgOBvWo6Lf9hb9mO4kUqeuItwpxU3V5mYa",
+      "full_name": "Arjun Mehta",
+      "role": "student",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=250",
+      "phone": "+91 98765 43210",
+      "department": "Computer Science and Engineering",
+      "roll_number": "21BCSE104",
+      "graduation_year": 2025,
+      "created_at": "2024-01-10T00:00:00.000Z",
+      "updated_at": "2026-10-14T03:24:47.065Z"
+    },
+    {
+      "id": "c1a7e28b-6c4a-4789-9a2f-1e920d320002",
+      "email": "student2@cocred.edu",
+      "password_hash": "$2b$10$jRFH52wxlIqcg67meMVUgOBvWo6Lf9hb9mO4kUqeuItwpxU3V5mYa",
+      "full_name": "Sneha Rao",
+      "role": "student",
+      "avatar_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=250",
+      "phone": "+91 98765 43211",
+      "department": "Electronics & Communication",
+      "roll_number": "21BECE042",
+      "graduation_year": 2025,
+      "created_at": "2024-02-15T00:00:00.000Z",
+      "updated_at": "2026-10-14T03:24:47.065Z"
+    },
+    {
+      "id": "f2b8f39c-7d5b-4890-ab30-2fa31e430001",
+      "email": "faculty@cocred.edu",
+      "password_hash": "$2b$10$jRFH52wxlIqcg67meMVUgOBvWo6Lf9hb9mO4kUqeuItwpxU3V5mYa",
+      "full_name": "Dr. Ramesh Sharma",
+      "role": "faculty",
+      "avatar_url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=250",
+      "phone": "+91 94440 12345",
+      "department": "Computer Science and Engineering",
+      "created_at": "2023-08-01T00:00:00.000Z",
+      "updated_at": "2026-10-14T03:24:47.065Z"
+    },
+    {
+      "id": "p3c9a40d-8e6c-4901-bc41-3ab42f540001",
+      "email": "placement@cocred.edu",
+      "password_hash": "$2b$10$jRFH52wxlIqcg67meMVUgOBvWo6Lf9hb9mO4kUqeuItwpxU3V5mYa",
+      "full_name": "Priya Nair",
+      "role": "placement_officer",
+      "avatar_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=250",
+      "phone": "+91 98880 54321",
+      "department": "Training and Placement Cell",
+      "created_at": "2023-07-15T00:00:00.000Z",
+      "updated_at": "2026-10-14T03:24:47.065Z"
+    },
+    {
+      "id": "a4d0b51e-9f7d-4012-cd52-4bc53a650001",
+      "email": "admin@cocred.edu",
+      "password_hash": "$2b$10$jRFH52wxlIqcg67meMVUgOBvWo6Lf9hb9mO4kUqeuItwpxU3V5mYa",
+      "full_name": "Prof. Vikram Malhotra",
+      "role": "admin",
+      "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=250",
+      "phone": "+91 99999 00000",
+      "department": "Academic Administration",
+      "created_at": "2023-06-01T00:00:00.000Z",
+      "updated_at": "2026-10-14T03:24:47.065Z"
+    }
+  ],
+  "student_profiles": [
+    {
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "bio": "Pre-final year Computer Science undergraduate passionate about Distributed Systems, Full-Stack Development, and Cloud Architecture. Active open-source contributor and hackathon enthusiast.",
+      "cgpa": 8.85,
+      "semester": 6,
+      "linkedin_url": "https://linkedin.com/in/arjun-mehta-dev",
+      "github_url": "https://github.com/arjunmehta",
+      "portfolio_slug": "arjun-mehta",
+      "is_public": true,
+      "skills": [
+        "TypeScript",
+        "React.js",
+        "Node.js",
+        "PostgreSQL",
+        "Docker",
+        "AWS",
+        "Python",
+        "Tailwind CSS",
+        "System Design"
+      ],
+      "contact_email": "arjun.mehta@alumni.edu",
+      "phone_number": "+91 98765 43210",
+      "resume_url": "/uploads/sample-resume.pdf",
+      "created_at": "2024-01-10T00:00:00.000Z",
+      "updated_at": "2026-10-14T03:24:47.065Z"
+    },
+    {
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320002",
+      "bio": "Electronics & Communication engineering student specializing in Embedded Systems, IoT architecture, and Edge AI applications.",
+      "cgpa": 9.12,
+      "semester": 6,
+      "linkedin_url": "https://linkedin.com/in/sneha-rao-ece",
+      "github_url": "https://github.com/sneharao",
+      "portfolio_slug": "sneha-rao",
+      "is_public": true,
+      "skills": [
+        "C/C++",
+        "Embedded C",
+        "Python",
+        "RTOS",
+        "ARM Cortex",
+        "TensorFlow Lite",
+        "PCB Design",
+        "MQTT"
+      ],
+      "contact_email": "sneha.rao@alumni.edu",
+      "created_at": "2024-02-15T00:00:00.000Z",
+      "updated_at": "2026-10-14T03:24:47.065Z"
+    }
+  ],
+  "academic_records": [
+    {
+      "id": "ar-1791949502260",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "semester": 5,
+      "course_code": "CS21MAB206",
+      "course_name": "Software Process",
+      "credits": 4,
+      "grade": "A+",
+      "academic_year": "2023-2024",
+      "created_at": "2026-10-14T03:45:02.260Z"
+    },
+    {
+      "id": "ar-01",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "semester": 5,
+      "course_code": "CS501",
+      "course_name": "Database Management Systems",
+      "credits": 4,
+      "grade": "A+",
+      "sgpa": 9.1,
+      "academic_year": "2023-2024",
+      "created_at": "2023-12-20T00:00:00.000Z"
+    },
+    {
+      "id": "ar-02",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "semester": 5,
+      "course_code": "CS502",
+      "course_name": "Design and Analysis of Algorithms",
+      "credits": 4,
+      "grade": "A",
+      "sgpa": 9.1,
+      "academic_year": "2023-2024",
+      "created_at": "2023-12-20T00:00:00.000Z"
+    },
+    {
+      "id": "ar-03",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "semester": 5,
+      "course_code": "CS503",
+      "course_name": "Computer Networks",
+      "credits": 3,
+      "grade": "A+",
+      "sgpa": 9.1,
+      "academic_year": "2023-2024",
+      "created_at": "2023-12-20T00:00:00.000Z"
+    },
+    {
+      "id": "ar-04",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "semester": 4,
+      "course_code": "CS401",
+      "course_name": "Operating Systems & Concurrency",
+      "credits": 4,
+      "grade": "A",
+      "sgpa": 8.75,
+      "academic_year": "2022-2023",
+      "created_at": "2023-05-20T00:00:00.000Z"
+    },
+    {
+      "id": "ar-05",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "semester": 4,
+      "course_code": "CS402",
+      "course_name": "Software Engineering Principles",
+      "credits": 3,
+      "grade": "O",
+      "sgpa": 8.75,
+      "academic_year": "2022-2023",
+      "created_at": "2023-05-20T00:00:00.000Z"
+    }
+  ],
+  "attendance_records": [
+    {
+      "id": "att-01",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "semester": 6,
+      "course_code": "CS601",
+      "course_name": "Cloud Computing Architecture",
+      "total_classes": 48,
+      "attended_classes": 44,
+      "percentage": 91.67,
+      "updated_at": "2026-10-14T03:24:47.066Z"
+    },
+    {
+      "id": "att-02",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "semester": 6,
+      "course_code": "CS602",
+      "course_name": "Artificial Intelligence & Machine Learning",
+      "total_classes": 45,
+      "attended_classes": 41,
+      "percentage": 91.11,
+      "updated_at": "2026-10-14T03:24:47.066Z"
+    },
+    {
+      "id": "att-03",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "semester": 6,
+      "course_code": "CS603",
+      "course_name": "Compiler Design",
+      "total_classes": 40,
+      "attended_classes": 34,
+      "percentage": 85,
+      "updated_at": "2026-10-14T03:24:47.066Z"
+    },
+    {
+      "id": "att-04",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "semester": 6,
+      "course_code": "CS604",
+      "course_name": "Information & Cyber Security",
+      "total_classes": 36,
+      "attended_classes": 26,
+      "percentage": 72.22,
+      "updated_at": "2026-10-14T03:24:47.066Z"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "e5e1c62f-0a8e-4123-de63-5cd64b760001",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "title": "AWS Certified Cloud Practitioner (CLF-C02)",
+      "issuing_org": "Amazon Web Services",
+      "issue_date": "2023-11-15",
+      "expiry_date": "2026-11-15",
+      "credential_id": "AWS-CCP-984210",
+      "credential_url": "https://aws.amazon.com/verification",
+      "file_url": "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&q=80&w=1200",
+      "file_name": "AWS_Certified_Cloud_Practitioner.pdf",
+      "file_size": 1420000,
+      "category": "Industry Certification",
+      "description": "Demonstrated overall understanding of cloud concepts, security, technology, billing, and pricing models.",
+      "status": "approved",
+      "verified_by": "f2b8f39c-7d5b-4890-ab30-2fa31e430001",
+      "verified_at": "2023-11-20T10:30:00.000Z",
+      "created_at": "2023-11-18T00:00:00.000Z",
+      "updated_at": "2023-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "e5e1c62f-0a8e-4123-de63-5cd64b760002",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "title": "Deep Learning Specialization",
+      "issuing_org": "DeepLearning.AI / Coursera",
+      "issue_date": "2024-02-28",
+      "credential_id": "COURSERA-DL-7731",
+      "credential_url": "https://coursera.org/verify/specialization",
+      "file_url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=1200",
+      "file_name": "Deep_Learning_Specialization.pdf",
+      "file_size": 2150000,
+      "category": "Technical Course",
+      "description": "Comprehensive 5-course sequence covering Neural Networks, CNNs, Sequence Models, and Hyperparameter Tuning.",
+      "status": "pending",
+      "created_at": "2024-03-01T00:00:00.000Z",
+      "updated_at": "2024-03-01T00:00:00.000Z"
+    },
+    {
+      "id": "e5e1c62f-0a8e-4123-de63-5cd64b760003",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "title": "FreeCodeCamp Responsive Web Design",
+      "issuing_org": "freeCodeCamp",
+      "issue_date": "2023-04-10",
+      "credential_id": "FCC-RWD-3392",
+      "file_url": "https://images.unsplash.com/photo-1523289333742-be1143f6b766?auto=format&fit=crop&q=80&w=1200",
+      "file_name": "FCC_Web_Design.pdf",
+      "file_size": 980000,
+      "category": "Online Course",
+      "description": "Completed 300 hours of responsive web development coursework including Flexbox, CSS Grid, and responsive layout projects.",
+      "status": "rejected",
+      "verified_by": "f2b8f39c-7d5b-4890-ab30-2fa31e430001",
+      "verified_at": "2023-04-15T14:20:00.000Z",
+      "rejection_reason": "Please provide accredited institutional or proctored university-recognized credential with verifiable digital signature.",
+      "created_at": "2023-04-12T00:00:00.000Z",
+      "updated_at": "2023-04-15T00:00:00.000Z"
+    }
+  ],
+  "verification_reviews": [
+    {
+      "id": "vr-01",
+      "certificate_id": "e5e1c62f-0a8e-4123-de63-5cd64b760001",
+      "reviewer_id": "f2b8f39c-7d5b-4890-ab30-2fa31e430001",
+      "reviewer_name": "Dr. Ramesh Sharma",
+      "action": "approved",
+      "notes": "Official digital validation code verified via AWS verification portal. Valid till 2026.",
+      "created_at": "2023-11-20T10:30:00.000Z"
+    },
+    {
+      "id": "vr-02",
+      "certificate_id": "e5e1c62f-0a8e-4123-de63-5cd64b760003",
+      "reviewer_id": "f2b8f39c-7d5b-4890-ab30-2fa31e430001",
+      "reviewer_name": "Dr. Ramesh Sharma",
+      "action": "rejected",
+      "reason": "Please provide accredited institutional or proctored university-recognized credential with verifiable digital signature.",
+      "notes": "Coursework completion badge is unproctored. Department policy requires proctored certifications.",
+      "created_at": "2023-04-15T14:20:00.000Z"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach-01",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "title": "Smart India Hackathon 2023 - 1st Prize Winner",
+      "category": "hackathon",
+      "organization": "Ministry of Education & AICTE",
+      "date": "2023-12-22",
+      "description": "Led a team of 6 to build an automated real-time disaster management telemetry dashboard. Awarded INR 1,00,000 cash prize.",
+      "proof_url": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&q=80&w=1200",
+      "status": "approved",
+      "created_at": "2023-12-25T00:00:00.000Z"
+    },
+    {
+      "id": "ach-02",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "title": "IEEE Research Paper Publication (Best Paper Nominee)",
+      "category": "research",
+      "organization": "IEEE International Conference on Advanced Computing (ICAC 2024)",
+      "date": "2024-02-14",
+      "description": "Co-authored paper titled \"Optimized Consensus Algorithms for Edge IoT Swarms\". Presented in technical track.",
+      "proof_url": "https://ieeexplore.ieee.org",
+      "status": "approved",
+      "created_at": "2024-02-16T00:00:00.000Z"
+    },
+    {
+      "id": "ach-03",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "title": "Google Solution Challenge Global Top 100 Finalist",
+      "category": "award",
+      "organization": "Google Developer Student Clubs",
+      "date": "2023-06-10",
+      "description": "Developed an accessibility application targeting UN Sustainable Development Goal 4 (Quality Education).",
+      "proof_url": "https://developers.google.com/community/gdsc-solution-challenge",
+      "status": "approved",
+      "created_at": "2023-06-12T00:00:00.000Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-01",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "title": "CoCred — Academic & Co-Curricular Credential Platform",
+      "description": "Full-stack platform enabling university students to record, verify, and share academic and extracurricular credentials with faculty review workflows and verifiable public QR code portfolios.",
+      "tech_stack": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Docker"
+      ],
+      "github_url": "https://github.com/arjunmehta/cocred-platform",
+      "live_url": "https://cocred.edu",
+      "role": "Team Lead & Full-Stack Architect",
+      "start_date": "2024-01-15",
+      "end_date": "2024-04-10",
+      "created_at": "2024-01-20T00:00:00.000Z"
+    },
+    {
+      "id": "proj-02",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "title": "Autonomous Campus Delivery Robot (Edge AI)",
+      "description": "Engineered SLAM navigation system using ROS2 and LiDAR point clouds for indoor food and parcel delivery within campus buildings.",
+      "tech_stack": [
+        "Python",
+        "ROS2",
+        "C++",
+        "OpenCV",
+        "LiDAR",
+        "Raspberry Pi"
+      ],
+      "github_url": "https://github.com/arjunmehta/campus-bot-ros2",
+      "role": "Perception & Navigation Engineer",
+      "start_date": "2023-08-01",
+      "end_date": "2023-11-30",
+      "created_at": "2023-08-10T00:00:00.000Z"
+    }
+  ],
+  "internships": [
+    {
+      "id": "intern-01",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "company": "Razorpay",
+      "role": "Software Development Engineering Intern",
+      "location": "Bangalore, India (Hybrid)",
+      "start_date": "2023-06-01",
+      "end_date": "2023-08-31",
+      "description": "Built high-throughput payment webhook processing pipeline handling 10,000+ events/sec using Kafka and Go. Reduced p99 latency by 28%.",
+      "certificate_url": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=1200",
+      "stipend": "INR 45,000/month",
+      "status": "Completed",
+      "created_at": "2023-09-02T00:00:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-01",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "title": "Certificate Verified: AWS Cloud Practitioner",
+      "message": "Your certificate has been approved by Dr. Ramesh Sharma and is now featured on your public portfolio.",
+      "type": "success",
+      "is_read": false,
+      "link": "/certificates",
+      "created_at": "2023-11-20T10:30:00.000Z"
+    },
+    {
+      "id": "notif-02",
+      "user_id": "c1a7e28b-6c4a-4789-9a2f-1e920d320001",
+      "title": "Attendance Alert: CS604 Cyber Security",
+      "message": "Your current attendance in CS604 is 72.22%, which is below the mandatory 75% threshold.",
+      "type": "warning",
+      "is_read": false,
+      "link": "/attendance",
+      "created_at": "2026-10-14T03:24:47.066Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "audit-01",
+      "user_id": "f2b8f39c-7d5b-4890-ab30-2fa31e430001",
+      "user_name": "Dr. Ramesh Sharma",
+      "action": "CERTIFICATE_VERIFIED",
+      "entity_type": "Certificate",
+      "entity_id": "e5e1c62f-0a8e-4123-de63-5cd64b760001",
+      "details": {
+        "title": "AWS Certified Cloud Practitioner (CLF-C02)",
+        "student": "Arjun Mehta"
+      },
+      "ip_address": "192.168.1.45",
+      "created_at": "2023-11-20T10:30:00.000Z"
+    },
+    {
+      "id": "audit-02",
+      "user_id": "f2b8f39c-7d5b-4890-ab30-2fa31e430001",
+      "user_name": "Dr. Ramesh Sharma",
+      "action": "CERTIFICATE_REJECTED",
+      "entity_type": "Certificate",
+      "entity_id": "e5e1c62f-0a8e-4123-de63-5cd64b760003",
+      "details": {
+        "title": "FreeCodeCamp Responsive Web Design",
+        "student": "Arjun Mehta",
+        "reason": "Unproctored certification"
+      },
+      "ip_address": "192.168.1.45",
+      "created_at": "2023-04-15T14:20:00.000Z"
+    }
+  ],
+  "departments": [
+    "Computer Science and Engineering",
+    "Electronics & Communication",
+    "Information Technology",
+    "Electrical & Electronics",
+    "Mechanical Engineering",
+    "Civil Engineering",
+    "Data Science & AI",
+    "Training and Placement Cell",
+    "Academic Administration"
+  ]
+}
